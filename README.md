@@ -293,7 +293,7 @@ from voxelgenetics.rft.volume import estimate_fwhm_3d
 fwhm_val = estimate_fwhm_3d(stat[..., None])[0] 
 ```
 
-**💡 Tip:** We provide three built-in atlases in the [../data](https://github.com/) folder, including JHU for NODDI or DTI, Tian for T2* or QSM, and the UKB atlas for VBM (which parcellates the brain into 139 regions). Alternatively, you can load and use your own custom atlas.
+**💡 Tip:** We provide three built-in atlases in the [../data]([https://github.com/](https://github.com/qin1114/Voxel-genetics/tree/main/data)) folder, including JHU for NODDI or DTI, Tian for T2* or QSM, and the UKB atlas for VBM (which parcellates the brain into 139 regions). Alternatively, you can load and use your own custom atlas.
 
 
 ## 2D Vertex-level Surface RFT Correction
