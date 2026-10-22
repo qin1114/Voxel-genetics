@@ -1,0 +1,140 @@
+New_Label	Source	UKB_IDP	Atlas_Label
+43	subcortical	L_ventral_striatum	Right Accumbens
+36	subcortical	R_ventral_striatum	Left Accumbens
+39	subcortical	R_putamen	Right Putamen
+31	subcortical	L_putamen	Left Putamen
+24	cerebellum	V_cerebellum_IX	Vermis IX
+98	cortical	R_precentral_gyrus	Right Precentral Gyrus
+50	cortical	L_precentral_gyrus	Left Precentral Gyrus
+25	cerebellum	R_cerebellum_IX	Right IX
+23	cerebellum	L_cerebellum_IX	Left IX
+27	cerebellum	V_cerebellum_X	Vermis X
+67	cortical	L_intracalc_cortex	Left Intracalcarine Cortex
+20	cerebellum	L_cerebellum_VIIIb	Left VIIIb
+115	cortical	R_intracalc_cortex	Right Intracalcarine Cortex
+22	cerebellum	R_cerebellum_VIIIb	Right VIIIb
+16	cerebellum	R_cerebellum_VIIb	Right VIIb
+11	cerebellum	L_cerebellum_crus_II	Left Crus II
+34	subcortical	L_hippocampus	Left Hippocampus
+41	subcortical	R_hippocampus	Right Hippocampus
+21	cerebellum	V_cerebellum_VIIIb	Vermis VIIIb
+8	cerebellum	L_cerebellum_crus_I	Left Crus I
+14	cerebellum	L_cerebellum_VIIb	Left VIIb
+18	cerebellum	V_cerebellum_VIIIa	Vermis VIIIa
+13	cerebellum	R_cerebellum_crus_II	Right Crus II
+1	cerebellum	L_cerebellum_I-IV	Left I-IV
+33	subcortical	brain_stem	Brain-Stem
+12	cerebellum	V_cerebellum_crus_II	Vermis Crus II
+10	cerebellum	R_cerebellum_crus_I	Right Crus I
+29	subcortical	L_thalamus	Left Thalamus
+3	cerebellum	L_cerebellum_V	Left V
+37	subcortical	R_thalamus	Right Thalamus
+28	cerebellum	R_cerebellum_X	Right X
+17	cerebellum	L_cerebellum_VIIIa	Left VIIIa
+19	cerebellum	R_cerebellum_VIIIa	Right VIIIa
+15	cerebellum	V_cerebellum_VIIb	Vermis VIIb
+7	cerebellum	R_cerebellum_VI	Right VI
+109	cortical	R_sup_parietal_lobule	Right Superior Parietal Lobule
+5	cerebellum	L_cerebellum_VI	Left VI
+99	cortical	R_temporal_pole	Right Temporal Pole
+96	cortical	R_inf_front_gyrus_parstri	Right Inferior Frontal Gyrus, pars triangularis
+2	cerebellum	R_cerebellum_I-IV	Right I-IV
+38	subcortical	R_caudate	Right Caudate
+127	cortical	R_lingual_gyrus	Right Lingual Gyrus
+51	cortical	L_temporal_pole	Left Temporal Pole
+108	cortical	R_postcent_gyrus	Right Postcentral Gyrus
+132	cortical	R_front_operc_cortex	Right Frontal Operculum Cortex
+4	cerebellum	R_cerebellum_V	Right V
+32	subcortical	L_pallidum	Left Pallidum
+118	cortical	R_subcallosal_cortex	Right Subcallosal Cortex
+78	cortical	L_parahipp_gyrus_post	Left Parahippocampal Gyrus, posterior division
+84	cortical	L_front_operc_cortex	Left Frontal Operculum Cortex
+30	subcortical	L_caudate	Left Caudate
+60	cortical	L_postcent_gyrus	Left Postcentral Gyrus
+89	cortical	L_planum_temporale	Left Planum Temporale
+6	cerebellum	V_cerebellum_VI	Vermis VI
+138	cortical	R_supracalc_cortex	Right Supracalcarine Cortex
+62	cortical	L_supramarg_gyrus_ant	Left Supramarginal Gyrus, anterior division
+139	cortical	R_occ_pole	Right Occipital Pole
+70	cortical	L_subcallosal_cortex	Left Subcallosal Cortex
+26	cerebellum	L_cerebellum_X	Left X
+91	cortical	L_occ_pole	Left Occipital Pole
+95	cortical	R_mid_front_gyrus	Right Middle Frontal Gyrus
+90	cortical	L_supracalc_cortex	Left Supracalcarine Cortex
+76	cortical	L_front_orb_cortex	Left Frontal Orbital Cortex
+100	cortical	R_sup_temp_gyrus_ant	Right Superior Temporal Gyrus, anterior division
+130	cortical	R_temp_occ_fusif_cortex	Right Temporal Occipital Fusiform Cortex
+110	cortical	R_supramarg_gyrus_ant	Right Supramarginal Gyrus, anterior division
+125	cortical	R_parahipp_gyrus_ant	Right Parahippocampal Gyrus, anterior division
+75	cortical	L_cuneal_cortex	Left Cuneal Cortex
+48	cortical	L_inf_front_gyrus_parstri	Left Inferior Frontal Gyrus, pars triangularis
+74	cortical	L_precun_cortex	Left Precuneous Cortex
+81	cortical	L_temp_fusif_cortex_post	Left Temporal Fusiform Cortex, posterior division
+129	cortical	R_temp_fusif_cortex_post	Right Temporal Fusiform Cortex, posterior division
+135	cortical	R_planum_polare	Right Planum Polare
+123	cortical	R_cuneal_cortex	Right Cuneal Cortex
+124	cortical	R_front_orb_cortex	Right Frontal Orbital Cortex
+64	cortical	L_angular_gyrus	Left Angular Gyrus
+61	cortical	L_sup_parietal_lobule	Left Superior Parietal Lobule
+93	cortical	R_insular_cortex	Right Insular Cortex
+137	cortical	R_planum_temporale	Right Planum Temporale
+83	cortical	L_occ_fusif_gyrus	Left Occipital Fusiform Gyrus
+134	cortical	R_parietal_operc_cortex	Right Parietal Operculum Cortex
+126	cortical	R_parahipp_gyrus_post	Right Parahippocampal Gyrus, posterior division
+94	cortical	R_sup_front_gyrus	Right Superior Frontal Gyrus
+117	cortical	R_juxtapos_lobule_cortex	Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)
+40	subcortical	R_pallidum	Right Pallidum
+49	cortical	L_inf_front_gyrus_parsop	Left Inferior Frontal Gyrus, pars opercularis
+68	cortical	L_front_med_cortex	Left Frontal Medial Cortex
+71	cortical	L_paracing_gyrus	Left Paracingulate Gyrus
+47	cortical	L_mid_front_gyrus	Left Middle Frontal Gyrus
+45	cortical	L_insular_cortex	Left Insular Cortex
+52	cortical	L_sup_temp_gyrus_ant	Left Superior Temporal Gyrus, anterior division
+87	cortical	L_planum_polare	Left Planum Polare
+73	cortical	L_cing_gyrus_post	Left Cingulate Gyrus, posterior division
+136	cortical	R_heschl_gyrus	Right Heschl's Gyrus (includes H1 and H2)
+119	cortical	R_paracing_gyrus	Right Paracingulate Gyrus
+116	cortical	R_front_med_cortex	Right Frontal Medial Cortex
+80	cortical	L_temp_fusif_cortex_ant	Left Temporal Fusiform Cortex, anterior division
+65	cortical	L_latocc_cortex_sup	Left Lateral Occipital Cortex, superior division
+35	subcortical	L_amygdala	Left Amygdala
+63	cortical	L_supramarg_gyrus_post	Left Supramarginal Gyrus, posterior division
+88	cortical	L_heschl_gyrus	Left Heschl's Gyrus (includes H1 and H2)
+59	cortical	L_inf_temp_gyrus_tempocc	Left Inferior Temporal Gyrus, temporooccipital part
+46	cortical	L_sup_front_gyrus	Left Superior Frontal Gyrus
+122	cortical	R_precun_cortex	Right Precuneous Cortex
+66	cortical	L_latocc_cortex_inf	Left Lateral Occipital Cortex, inferior division
+77	cortical	L_parahipp_gyrus_ant	Left Parahippocampal Gyrus, anterior division
+9	cerebellum	V_cerebellum_crus_I	Vermis Crus I
+86	cortical	L_parietal_operc_cortex	Left Parietal Operculum Cortex
+42	subcortical	R_amygdala	Right Amygdala
+133	cortical	R_cent_operc_cortex	Right Central Opercular Cortex
+113	cortical	R_latocc_cortex_sup	Right Lateral Occipital Cortex, superior division
+92	cortical	R_frontal_pole	Right Frontal Pole
+79	cortical	L_lingual_gyrus	Left Lingual Gyrus
+105	cortical	R_inf_temp_gyrus_ant	Right Inferior Temporal Gyrus, anterior division
+53	cortical	L_sup_temp_gyrus_post	Left Superior Temporal Gyrus, posterior division
+121	cortical	R_cing_gyrus_post	Right Cingulate Gyrus, posterior division
+106	cortical	R_inf_temp_gyrus_post	Right Inferior Temporal Gyrus, posterior division
+44	cortical	L_frontal_pole	Left Frontal Pole
+82	cortical	L_temp_occ_fusif_cortex	Left Temporal Occipital Fusiform Cortex
+103	cortical	R_mid_temp_gyrus_post	Right Middle Temporal Gyrus, posterior division
+57	cortical	L_inf_temp_gyrus_ant	Left Inferior Temporal Gyrus, anterior division
+128	cortical	R_temp_fusif_cortex_ant	Right Temporal Fusiform Cortex, anterior division
+114	cortical	R_latocc_cortex_inf	Right Lateral Occipital Cortex, inferior division
+120	cortical	R_cing_gyrus_ant	Right Cingulate Gyrus, anterior division
+131	cortical	R_occ_fusif_gyrus	Right Occipital Fusiform Gyrus
+58	cortical	L_inf_temp_gyrus_post	Left Inferior Temporal Gyrus, posterior division
+72	cortical	L_cing_gyrus_ant	Left Cingulate Gyrus, anterior division
+54	cortical	L_mid_temp_gyrus_ant	Left Middle Temporal Gyrus, anterior division
+69	cortical	L_juxtapos_lobule_cortex	Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)
+55	cortical	L_mid_temp_gyrus_post	Left Middle Temporal Gyrus, posterior division
+97	cortical	R_inf_front_gyrus_parsop	Right Inferior Frontal Gyrus, pars opercularis
+111	cortical	R_supramarg_gyrus_post	Right Supramarginal Gyrus, posterior division
+102	cortical	R_mid_temp_gyrus_ant	Right Middle Temporal Gyrus, anterior division
+104	cortical	R_mid_temp_gyrus_tempocc	Right Middle Temporal Gyrus, temporooccipital part
+85	cortical	L_cent_operc_cortex	Left Central Opercular Cortex
+56	cortical	L_mid_temp_gyrus_tempocc	Left Middle Temporal Gyrus, temporooccipital part
+101	cortical	R_sup_temp_gyrus_post	Right Superior Temporal Gyrus, posterior division
+112	cortical	R_angular_gyrus	Right Angular Gyrus
+107	cortical	R_inf_temp_gyrus_tempocc	Right Inferior Temporal Gyrus, temporooccipital part
