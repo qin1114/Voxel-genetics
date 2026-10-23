@@ -129,6 +129,7 @@ def estimate_bwas(
     burden_train_scores = g_impute_nan_as_mean(burden_train_scores)
     
     valid_snp_indices = torch.where(valid_burdens_mask)[0].cpu().numpy()
+    snplist_valid = snplist[valid_burdens_mask]
 
     # =========================================================================
     # Branch A：save_mode == 'h5'
@@ -146,7 +147,7 @@ def estimate_bwas(
             h5f.attrs['chunk_size'] = chunk_size
             h5f.attrs['n_blocks'] = n_blocks
 
-            h5f.create_dataset('snplist', data=snplist, dtype=h5py.special_dtype(vlen=str))
+            h5f.create_dataset('snplist', data=snplist_valid, dtype=h5py.special_dtype(vlen=str))
             h5f.create_dataset('sampleid', data=sampleid, compression='gzip')
             
             for y_start in tqdm(range(0, n_voxels, chunk_size), desc="Processing Voxel Chunks"):
@@ -232,7 +233,7 @@ def estimate_bwas(
             
             block_key = f'block_{y_start}_{y_end}'
             results_dict['blocks'][block_key] = t_chunk_cpu.numpy()
-            results_dict['snplist'] = snplist
+            results_dict['snplist'] = snplist_valid
             results_dict['sampleid'] = sampleid
             
             del Y_chunk, t_chunk_cpu
