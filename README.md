@@ -113,7 +113,7 @@ _, idx_cov, _ = np.intersect1d(common_ids, cov_ids, return_indices=True)
 
 # Reorder the matrices to match the common IDs
 aligned_imaging = imaging_matrix[idx_img, :]
-aligned_genotype = 2 - np.array(G.values)[:, idx_geno]  # see Note on Allele Direction in data loading section
+aligned_genotype = 2 - np.array(G.values)[idx_geno, :]  # see Note on Allele Direction in data loading section
 aligned_covariates = covariates[idx_cov, :]
 
 print(f"Total matched samples: {len(common_ids)}")
