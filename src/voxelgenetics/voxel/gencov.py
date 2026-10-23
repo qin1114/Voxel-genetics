@@ -130,7 +130,7 @@ def estimate_rg_voxel(
             if chr_num not in bwas_dict:
                 raise KeyError(f"Chromosome {chr_num} not found in `bwas_dict`.")
             gwas_snplist = bwas_dict[chr_num]['snplist']
-            n_samples_voxel = len(bwas_dict[chr_num]['sampleid'])
+            n_samples = len(bwas_dict[chr_num]['sampleid'])
 
         # Match LD score, HDF5, and Target GWAS SNPs
         snp_to_idx_h5 = {snp: idx for idx, snp in enumerate(gwas_snplist)}
@@ -156,7 +156,7 @@ def estimate_rg_voxel(
 
         chr_matched_info[chr_num] = np.array(matched_indices)
         all_ld_scores.extend(matched_ld)
-        all_n_voxel.extend(n_samples_voxel * np.ones(len(matched_indices)))
+        all_n_voxel.extend(n_samples * np.ones(len(matched_indices)))
         all_target_z.extend(matched_target_z)
         all_n_target.extend(matched_target_n)
 
