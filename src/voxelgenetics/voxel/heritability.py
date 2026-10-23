@@ -81,7 +81,7 @@ def estimate_h2_voxel(
     all_ld_scores = []
     all_n = []
     chr_matched_info = {}
-    chr_h5_files = {}  # chr_num -> resolved h5 path
+    chr_h5_files = {}
 
     print(f"Step 1: Collecting LD scores and matching SNPs for {len(list(chromosome_range))} chromosomes...")
     
@@ -109,6 +109,7 @@ def estimate_h2_voxel(
         if bwas_dict is None:
             # Resolve HDF5 path for this chromosome
             h5_file = gwas_h5_template.format(chr=chr_num)
+            chr_h5_files[chr_num] = h5_file
             if not os.path.exists(h5_file):
                 raise ValueError(f"No HDF5 files found matching pattern: {gwas_h5_template.format(chr='*')}")
             gwas_snplist = load_h5_snplist(h5_file, chr_num)
