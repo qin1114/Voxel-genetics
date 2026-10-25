@@ -108,7 +108,7 @@ def cluster_p_3d(nvoxel, cdt_z, cluster_size, fwhm):
 
     EC = _grf_3d_ec_density(cdt_z)
 
-    EN = V * (norm.cdf(-np.abs(cdt_z)))
+    EN = V * (2 * norm.cdf(-np.abs(cdt_z)))
 
     EL1 = 0.0
     for i in range(4):
