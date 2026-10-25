@@ -255,7 +255,7 @@ class Hsq(LD_Score_Regression):
         # c = hsq * N / M
         # intercept + c * ld
         # intercept: (chunk_size,), c: (n_snp, chunk_size), ld: (n_snp, 1)
-        denom = intercept.unsqueeze(1) + (hsq.unsqueeze(1) / M) * ld
+        denom = intercept.unsqueeze(1) + (hsq.unsqueeze(1) * N / M) * ld
         # het_w = 1 / (2 * denom^2)
         het_w = denom.pow_(2).mul_(2.0).reciprocal_()
         # oc_w = 1 / w_ld
